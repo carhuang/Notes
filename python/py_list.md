@@ -10,8 +10,7 @@ old_list = ['car', 'b', 'lens']
 item = 'sushi'
 ```  
 
-<h4>1. Append a single item to end of list with `append()`:</h4>
----
+### 1. Append a single item to end of list with `append()`:
 ```python
 old_list.append(item)
 # old_list = ['car', 'b', 'lens', 'sushi']
