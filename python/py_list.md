@@ -4,7 +4,7 @@
 
 
 # Appending item to end of a list
-Example:
+**Example:**
 ```python
 old_list = ['car', 'b', 'lens']
 item = 'sushi'
