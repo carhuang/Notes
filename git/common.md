@@ -1,0 +1,11 @@
+# Common Git Commands
+- `git clone []`
+- `git add .` adds all local changes to be commited
+- `git add [file name(s)]` adds changes in specific files to be commited
+- `git status` checks the current git status
+- `git commit -m "commit message"` commits the local changes to be pushed
+- `git push` or `git push origin 'branch_name'` to push the changes to remote repo
+- `git remote set-url origin https://github.com/...` or `git remote set-url origin git@github.com:carhuang/...` to switch between pushing with HTTPS or SSH
+- `gh auth login` to login to github if `git push` throws permission denied error. Need to have Github CLI installed with `$ sudo apt install gh`.
+- `git pull 'remote_name' 'branch_name'`
+- `git checkout -b 'new_branch_name'` creates a new branch and switched to it
