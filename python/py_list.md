@@ -19,7 +19,6 @@ old_list.append(item)
 *space* = O(1)
 
 ### 2. Concatinate another list onto the end of the old list with `extend()`:
----
 ```python
 old_list.extend([item])
 # old_list = ['car', 'b', 'lens', 'sushi']
@@ -48,8 +47,7 @@ tup += [2, 4]
 ```
 > This is because under the hood, another new tuple object is created and the pointer of `tup` is updated to point to the new tuple. The reassignment is not done in-place.
 
-**3. Create a new list with `+`:**
----
+### 3. Create a new list with `+`:
 ```python
 new_list = old_list + [item]
 # new_list = ['car', 'b', 'lens', 'sushi']
@@ -58,8 +56,7 @@ new_list = old_list + [item]
 *space* = O(n)  
 where n = length of old list + length of the list being added
 
-**4. Create a new list by unpacking old list with `*`-operator:**
----
+### 4. Create a new list by unpacking old list with `*`-operator:
 ```python
 new_list = [*old_list, item]
 # new_list = ['car', 'b', 'lens', 'sushi']
