@@ -18,7 +18,7 @@ old_list.append(item)
 *runtime* = O(1)  
 *space* = O(1)
 
-**2. Concatinate another list onto the end of the old list with `extend()`:**
+### 2. Concatinate another list onto the end of the old list with `extend()`:
 ---
 ```python
 old_list.extend([item])
