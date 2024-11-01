@@ -3,14 +3,14 @@
 - [Appending item to end of a list](#appending-item-to-end-of-a-list)
 
 
-## Appending item to end of a list
+# Appending item to end of a list
 Example:
 ```python
 old_list = ['car', 'b', 'lens']
 item = 'sushi'
 ```  
 
-**1. Append a single item to end of list with `append()`:**
+<h4>1. Append a single item to end of list with `append()`:</h4>
 ---
 ```python
 old_list.append(item)
